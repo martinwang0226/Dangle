@@ -42,4 +42,7 @@ export default [
     "src/stardust/hello_world",
     "src/stardust/daily_activities",
     "src/stardust/sanddance",
+
+    // Cocos
+    "src/cocos/pkgame_star"
 ];

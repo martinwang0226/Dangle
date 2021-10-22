@@ -14,6 +14,7 @@ public class EngineTypeActivity extends AppCompatActivity {
     public static final String TYPE_MDN_WEBGL = "MDN WebGL";
     public static final String TYPE_THREE_JS = "Three.js";
     public static final String TYPE_STARTDUST = "Stardust";
+    public static final String TYPE_COCOS = "Cocos";
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -73,6 +74,11 @@ public class EngineTypeActivity extends AppCompatActivity {
                         "stardust/hello_world",
                         "stardust/daily_activities",
                         "stardust/sanddance",
+                };
+                break;
+            case TYPE_COCOS:
+                dataSet = new String[]{
+                        "cocos/pkgame_star",
                 };
                 break;
             default:
