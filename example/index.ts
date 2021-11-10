@@ -42,4 +42,7 @@ export default [
     "src/stardust/hello_world",
     "src/stardust/daily_activities",
     "src/stardust/sanddance",
+
+    // PixiJS
+    "src/pixijs/hello_world"
 ];
